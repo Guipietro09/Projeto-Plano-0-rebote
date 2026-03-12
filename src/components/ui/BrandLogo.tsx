@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 interface BrandLogoProps {
   className?: string;
-  size?: "sm" | "md" | "lg";
+  size?: "sm" | "md" | "lg" | "xl";
   variant?: "light" | "dark";
 }
 
@@ -11,6 +11,7 @@ export const BrandLogo = ({ className = "", size = "md", variant = "light" }: Br
     sm: "h-8",
     md: "h-12",
     lg: "h-20",
+    xl: "h-20 md:h-32",
   };
 
   return (
@@ -20,9 +21,9 @@ export const BrandLogo = ({ className = "", size = "md", variant = "light" }: Br
       className={`flex items-center justify-center ${className}`}
     >
       <img
-        src="https://drive.google.com/uc?id=1VfN1dpnoLpyjoFalzzHyocy_aEqppC9K"
+        src="https://i.postimg.cc/MGLCJZ65/imagem-logo-nova.png"
         alt="Plano R$0 Rebote Logo"
-        className={`${sizes[size]} w-auto object-contain ${variant === "dark" ? "brightness-0 invert" : ""}`}
+        className={`${sizes[size]} w-auto object-contain brightness-0 invert`}
         referrerPolicy="no-referrer"
       />
     </motion.div>

@@ -1,10 +1,8 @@
 import { CTAButton } from "../ui/Button";
-import { BrandLogo } from "../ui/BrandLogo";
 
 export const Footer = () => (
   <section className="py-24 px-4 bg-[#0a0a0a] text-white text-center">
     <div className="max-w-4xl mx-auto">
-      <BrandLogo size="md" className="mb-12 opacity-30" />
       <div className="space-y-6 text-xl md:text-2xl font-medium text-gray-300 mb-16 leading-relaxed">
         <p>O remédio pode iniciar o processo.</p>
         <p className="text-white font-bold">Mas só a estrutura mantém o resultado.</p>

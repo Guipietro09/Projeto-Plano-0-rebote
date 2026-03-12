@@ -1,7 +1,6 @@
 import { motion } from "motion/react";
 import { CheckCircle2, ChevronDown } from "lucide-react";
 import { CTAButton } from "../ui/Button";
-import { BrandLogo } from "../ui/BrandLogo";
 
 export const Hero = () => (
   <section className="relative min-h-screen flex flex-col items-center justify-center bg-[#0a0a0a] text-white px-4 py-20 overflow-hidden">
@@ -13,7 +12,6 @@ export const Hero = () => (
       transition={{ duration: 0.8 }}
       className="relative z-10 max-w-4xl text-center"
     >
-      <BrandLogo size="md" className="mb-8 opacity-80" />
       <span className="inline-block bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
         Protocolo de Manutenção Invisível
       </span>

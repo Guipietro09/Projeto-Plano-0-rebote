@@ -1,12 +1,10 @@
 import { ShieldCheck } from "lucide-react";
 import { Section } from "../ui/Section";
 import { CTAButton } from "../ui/Button";
-import { BrandLogo } from "../ui/BrandLogo";
 
 export const Pricing = () => (
   <Section variant="accent" className="text-center">
     <div className="max-w-4xl mx-auto">
-      <BrandLogo size="sm" className="mb-8 opacity-50 brightness-0 invert" />
       <h2 className="text-3xl md:text-5xl font-black mb-8 tracking-tight">Faça as contas…</h2>
       <p className="text-xl md:text-2xl font-medium mb-12 opacity-90">
         Uma única caneta pode custar centenas ou milhares. <br />
